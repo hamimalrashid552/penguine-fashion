@@ -12,21 +12,22 @@
 </head>
 <body>
     <header class="container p-3 mb-2 bgcolor g-5">
-      <img style="width: 250px;" src="icon/Logo.png" class="img-fluid " alt="...">
-        <ul class="nav justify-content-end">
-            <li  class="nav-item">
-              <a class="nav-link active text-dark" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-dark" href="#">Product</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-dark" href="#">Abut us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-dark" href="#">Contuct us</a>
-            </li>
-        </ul>
+      <nav class="navbar navbar-expand-lg navbar-light bgcolor">
+        <div class="container-fluid g-5">
+          <a class="navbar-brand" href="#"><img src="icon/Logo.png" style="width: 250px;" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav col d-flex justify-content-end">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" href="#">Product</a>
+              <a class="nav-link active" href="#">About us</a>
+              <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">Contuct us</a>
+            </div>
+          </div>
+        </div>
+      </nav>
         <div class="row d-flex align-items-center">
             <div class="col-md-6" >
                 <img src="photo/shoes1.png" class="d-block w-100" alt="">
