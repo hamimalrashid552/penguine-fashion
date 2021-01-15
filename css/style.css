@@ -1,7 +1,10 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
-.fontcolor{
-    color: coral;
+.bgcolor{
+    background-color: rgba(255, 249, 244, 1);
+    text-align: left;
+    
 }
+
 
